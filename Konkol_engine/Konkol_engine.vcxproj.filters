@@ -2,5 +2,21 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Logs.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source File">
+      <UniqueIdentifier>{9adfa62d-e9e2-4d30-a059-e7d5106bf80c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header File">
+      <UniqueIdentifier>{719b3735-aab1-405a-ac28-3976e225a3f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logs.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
