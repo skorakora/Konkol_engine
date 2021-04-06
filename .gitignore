@@ -10,3 +10,4 @@
 
 #skip debug
 ./Konkol_engine/Debug/
+./Debug/

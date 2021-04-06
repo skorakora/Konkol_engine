@@ -160,10 +160,8 @@
     <ClCompile Include="Logs.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shader_compiler.cpp" />
-    <ClCompile Include="console.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Console.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Shader_compiler.h" />

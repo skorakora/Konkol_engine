@@ -7,3 +7,5 @@ void InitLog();
 void ErrorLog(const std::string str);
 void WriteLog(const std::string str);
 void CloseLog();
+
+void RedirectIOToConsole();//create debug console
