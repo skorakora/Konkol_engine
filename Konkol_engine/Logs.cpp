@@ -1,10 +1,7 @@
 //Copyright Danzo Systems. Created by Daniel Skorski
 #include "Logs.h"
 
-#include <iostream>
-#include <fstream>
-#include <filesystem>
-
+#include "stdafx.h"
 std::fstream output;
 std::fstream errlog;
 
@@ -18,7 +15,7 @@ void InitLog()
 	errlog.open("log\\errors.txt", std::fstream::out);
 }
 
-void Error(const std::string str)
+void ErrorLog(const std::string str)
 {
 	if (str.empty()) { return; }
 	output << "ERROR:" << str << '\n';

@@ -5,6 +5,9 @@
     <ClCompile Include="Logs.cpp">
       <Filter>Source File</Filter>
     </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source File">
@@ -16,6 +19,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Logs.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
       <Filter>Header File</Filter>
     </ClInclude>
   </ItemGroup>
