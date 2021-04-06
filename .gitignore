@@ -1,1 +1,12 @@
-.vs/
+#skip everything in .vs directory without linker settings
+!.vs/
+.vs/*
+!.vs/Konkol_engine/
+.vs/Konkol_engine/*
+!.vs/Konkol_engine/v16/
+.vs/Konkol_engine/v16/*
+!.vs/Konkol_engine/v16/.suo
+
+
+#skip debug
+./Konkol_engine/Debug/
