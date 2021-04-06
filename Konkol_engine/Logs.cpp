@@ -6,7 +6,6 @@
 #include "stdafx.h"
 #include "Globals.h"
 
-bool debugMode = true;//fix globals - test for console.
 
 std::fstream output;
 std::fstream errlog;
@@ -19,9 +18,9 @@ void InitLog()
 	}
 	output.open("log\\log.txt", std::fstream::out);
 	errlog.open("log\\errors.txt", std::fstream::out);
-	if (debugMode)
+	if (Global.debugMode)
 	{
-		RedirectIOToConsole();
+		RedirectIOToConsole();//initialization of cmd window
 	}
 }
 
@@ -29,11 +28,11 @@ void ErrorLog(const std::string str)
 {
 	if (str.empty()) { return; }
 	output << "ERROR:" << str << '\n';
-	if (debugMode)//write log to console
+	if (Global.debugMode)//write log to console
 	{
-		_CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE);
+		_CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE); //some weird stuff neded to display command on cmd window.
 		_CrtSetReportFile(_CRT_WARN, _CRTDBG_FILE_STDERR);
-		_RPT0(_CRT_WARN, "ERROR:");
+		_RPT0(_CRT_WARN, "ERROR:"); //Win32 version of "cout"
 		_RPT0(_CRT_WARN, str.c_str());
 		_RPT0(_CRT_WARN, "\n");
 	}
@@ -44,11 +43,11 @@ void WriteLog(const std::string str)
 {
 	if (str.empty()) { return; }
 	output << str << '\n';
-	if (debugMode)//write log to console
+	if (Global.debugMode)//write log to console
 	{
-		_CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE);
+		_CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_FILE);//some weird stuff neded to display command on cmd window.
 		_CrtSetReportFile(_CRT_WARN, _CRTDBG_FILE_STDERR);
-		_RPT0(_CRT_WARN, str.c_str());
+		_RPT0(_CRT_WARN, str.c_str());//Win32 version of "cout"
 		_RPT0(_CRT_WARN, "\n");
 	}
 }
@@ -104,6 +103,4 @@ void RedirectIOToConsole()
 }
 
 //TODO:
-//-Console log, that is active only in debug mode
-//-read settings from global variable
 //-OpenGL log system

@@ -4,6 +4,6 @@
 #include "stdafx.h"
 
 
-Globals Global;
+globals Global;
 
 

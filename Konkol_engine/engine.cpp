@@ -4,6 +4,7 @@
 #include "engine.h"
 
 #include "stdafx.h"
+#include "Globals.h"
 
 
 int Konkol_Engine::init()
@@ -11,8 +12,9 @@ int Konkol_Engine::init()
 	int result = 0;
 	WriteLog("Starting Konkol Engine - Please Wait...");
 	WriteLog("Copyright Danzo Systems Software, created by Daniel Skorski");
-	while(true)
-	{ }
+	while (true)
+	{
+	}
 	return 0;
 }
 
