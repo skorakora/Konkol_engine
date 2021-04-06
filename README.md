@@ -5,7 +5,6 @@
     * Universal SCN loader
     * MMD loader
     * Universal file parser
-    * MMD loader
 * Graphics features(WIP)
 	* Runtime shader compiler
 	* NVIDIA Rary Tracing libraries 
