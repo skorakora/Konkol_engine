@@ -10,8 +10,8 @@
 	* NVIDIA Ray Tracing libraries 
 	* HDRP 
 * Simulation libraries(WIP)
-	*Nvidia Physx
-	*Siadura Physics - Realtime ralistic physics simulation library
+	* Nvidia Physx
+	* Siadura Physics - Realtime ralistic physics simulation library
 	
 * Dependencies(WIP)
 	* SDL - Simple Direct Media Layer
