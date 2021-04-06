@@ -1,0 +1,4 @@
+Todo list
+-Make better debugging system
+-Rename critical voids to ints or bool
+-Create error code list
