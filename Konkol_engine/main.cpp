@@ -1,7 +1,9 @@
 //Copyright Danzo Systems. Created by Daniel Skorski
 
+
 #include "stdafx.h"
 #include "engine.h"
+#include "Globals.h"
 
 int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {

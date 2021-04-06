@@ -156,11 +156,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="engine.cpp" />
+    <ClCompile Include="Globals.cpp" />
     <ClCompile Include="Logs.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader_compiler.cpp" />
+    <ClCompile Include="console.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Console.h" />
     <ClInclude Include="engine.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Shader_compiler.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Logs.h" />
   </ItemGroup>
