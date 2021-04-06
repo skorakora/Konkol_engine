@@ -7,7 +7,7 @@
     * Universal file parser
 * Graphics features(WIP)
 	* Runtime shader compiler
-	* NVIDIA Rary Tracing libraries 
+	* NVIDIA Ray Tracing libraries 
 	* HDRP 
 * Simulation libraries(WIP)
 	*Nvidia Physx
