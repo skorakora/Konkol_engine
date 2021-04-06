@@ -14,10 +14,10 @@
 	*Nvidia Physx
 	*Siadura Physics - Realtime ralistic physics simulation library
 	
-*Dependencies(WIP)
-	*SDL - Simple Direct Media Layer
-	*OpenGL 3.0
-	*GLM
+* Dependencies(WIP)
+	* SDL - Simple Direct Media Layer
+	* OpenGL 3.0
+	* GLM
 	
 ![Engine](./images/Engine.jpg)
 
