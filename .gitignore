@@ -11,4 +11,6 @@
 #skip debug
 ./Konkol_engine/Debug/
 ./Debug/
-Debug/
+./Konkol_engine/x64/
+./x64/
+

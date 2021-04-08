@@ -53,4 +53,6 @@ void Display::Update()
 		}
 	}
 }
+
+
 //TODO Move this class to init function

@@ -3,10 +3,14 @@
 
 #include "engine.h"
 
+
+
 #include "stdafx.h"
 #include "Globals.h"
 #include "mesh.h"
 #include "display.h"
+
+#include <SDL2/SDL.h>
 
 
 
@@ -26,8 +30,8 @@ int Konkol_Engine::run()
 	int result = 0;
 	Display display(800, 600, "Konkol Engine");
 
+	
 	/*
-
 	Vertex vertices[] = { Vertex(glm::vec3(-0.5, -0.5, 0.0)), 
 						  Vertex(glm::vec3(0.0, 0.5, 0.0)), 
 						  Vertex(glm::vec3(0.5, -0.5, 0.0)) };
@@ -44,7 +48,7 @@ int Konkol_Engine::run()
 
 		display.Update();
 	}
-
+	
 	return 0;
 }
 
