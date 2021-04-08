@@ -13,7 +13,6 @@ int CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
 	try
 	{
-		InitLog();
 		result = engine.init();
 			if (result == 0)
 			{

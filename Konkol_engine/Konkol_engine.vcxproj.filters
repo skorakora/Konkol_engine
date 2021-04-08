@@ -14,6 +14,12 @@
     <ClCompile Include="Globals.cpp">
       <Filter>Source File</Filter>
     </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source File</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source File">
@@ -37,6 +43,12 @@
       <Filter>Header File</Filter>
     </ClInclude>
     <ClInclude Include="Globals.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
       <Filter>Header File</Filter>
     </ClInclude>
   </ItemGroup>

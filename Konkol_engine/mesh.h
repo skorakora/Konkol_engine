@@ -3,6 +3,7 @@
 #include <glm/glm.hpp>
 #include <GL/glew.h>
 
+/*
 
 class Mesh
 {
@@ -42,3 +43,5 @@ private:
 	glm::uvec3 pos;
 
 };
+
+*/

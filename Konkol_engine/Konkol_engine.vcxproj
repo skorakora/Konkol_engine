@@ -155,15 +155,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="display.cpp" />
     <ClCompile Include="engine.cpp" />
     <ClCompile Include="Globals.cpp" />
     <ClCompile Include="Logs.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mesh.cpp" />
     <ClCompile Include="Shader_compiler.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="display.h" />
     <ClInclude Include="engine.h" />
     <ClInclude Include="Globals.h" />
+    <ClInclude Include="mesh.h" />
     <ClInclude Include="Shader_compiler.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Logs.h" />
