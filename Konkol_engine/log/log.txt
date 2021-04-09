@@ -1,3 +1,2 @@
 Starting Konkol Engine - Please Wait...
 Copyright Danzo Systems Software, created by Daniel Skorski
-ERROR:engine exception code =

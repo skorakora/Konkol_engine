@@ -3,7 +3,20 @@
 #include <glm/glm.hpp>
 #include <GL/glew.h>
 
-/*
+
+class Vertex
+{
+public:
+	Vertex(const glm::vec3& pos)
+	{
+		this->pos = pos;
+	}
+
+private:
+	glm::uvec3 pos;
+
+};
+
 
 class Mesh
 {
@@ -14,8 +27,6 @@ public:
 	~Mesh();
 
 private:
-	Mesh(const Mesh& other);
-	void operator = (const Mesh& other);
 
 	enum 
 	{
@@ -31,17 +42,5 @@ private:
 
 
 
-class Vertex
-{
-public:
-	Vertex(const glm::vec3& pos)
-	{
-		this->pos = pos;
-	}
 
-private:
-	glm::uvec3 pos;
 
-};
-
-*/

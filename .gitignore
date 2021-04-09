@@ -9,8 +9,8 @@
 
 
 #skip debug
-./Konkol_engine/Debug/
-./Debug/
-./Konkol_engine/x64/
-./x64/
+Konkol_engine/Debug/
+Debug/
+Konkol_engine/x64/
+x64/
 
