@@ -9,6 +9,7 @@
 #include "Globals.h"
 #include "mesh.h"
 #include "display.h"
+#include "Shader_compiler.h"
 
 #include <SDL2/SDL.h>
 
@@ -31,7 +32,7 @@ int Konkol_Engine::run()
 	Display display(800, 600, "Konkol Engine");
 
 	
-	/*
+	
 	Vertex vertices[] = { Vertex(glm::vec3(-0.5, -0.5, 0.0)), 
 						  Vertex(glm::vec3(0.0, 0.5, 0.0)), 
 						  Vertex(glm::vec3(0.5, -0.5, 0.0)) };
@@ -39,13 +40,12 @@ int Konkol_Engine::run()
 
 	Mesh mesh(vertices, sizeof(vertices)/sizeof(vertices[0]));
 
-	*/
+	Shader shader("./shaders/basicShader");
 
-	while (!display.IsClosed())
+	while(!display.IsClosed())
 	{
-		glClearColor(0.0f, 0.15f, 0.3f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
 
+		shader.Bind();
 		display.Update();
 	}
 	
